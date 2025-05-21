@@ -1,0 +1,1 @@
+W,A,S,D to move. Get to the end of the maze before time runs out. Collect red rubies to increase score or sell them to get more time. 

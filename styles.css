@@ -1,0 +1,146 @@
+/*this is the css file */ 
+/**/
+/*make everything flexible*/
+body {
+    background-color:rgb(113, 139, 162); 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+}
+/*controls main menu attributes*/
+#mainmenu {
+    background-color: rgb(113, 139, 162); 
+    border: 5px solid rgb(101, 123, 142); 
+    height: 90%; 
+    width: 90%; 
+    margin: auto; 
+    font-size: 64px; 
+    text-align: center; 
+}
+#instructions {
+    background-color: rgb(251, 255, 197); 
+    margin-left: 0;
+    margin-top: 10px;  
+    display: block;
+    text-align: center; 
+    
+}
+/*button that plays the game. */
+#playbutton {
+    border: 5px solid rgb(94, 140, 129); 
+    border-radius: 5px; 
+    background-color: rgb(137, 204, 188);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 32px;
+    cursor: pointer;
+}
+#playbutton:hover {
+    background-color:rgb(94, 140, 129); 
+    text-decoration: underline; 
+}
+
+/*Styles for the gameplay page*/
+/*Below are the styles for the gameplay page. */
+/*The syle for the .ball should be changed to wall. */
+.ball {
+    position: absolute; 
+    width: 20px; 
+    height: 20px; 
+    background-color: black; 
+    top: 100px; 
+    left: 100px; 
+}
+/*Creat a coin class style They're called rubies in the game */
+.ruby {
+    position: absolute; 
+    width: 10px; 
+    height: 10px; 
+    background-color: rgba(196, 0, 0, 0.564); 
+    border: solid rgb(174, 0, 0) 1px; 
+    top: 100px; 
+    left: 100px; 
+}
+/*This is the game board which holds the maze. */
+#container {
+    border: 5px solid black; 
+    position: fixed; 
+    height: 90.1%; 
+    width: 98.1%; 
+    background-color: rgb(250, 255, 209); 
+    margin-top: 100px; 
+}
+.gameInfo {
+    background-color: rgb(72, 72, 253); 
+    border: 5px solid black; 
+    border-radius: 5px; 
+    color: black; 
+    margin: 10px; 
+    padding: 5px; 
+    display: flex; 
+    font-size: xx-large;
+}
+#stats {
+    display: none; 
+    transition: 2.5s;  
+    background-color:rgb(255, 0, 0); 
+    color: black; 
+    margin: 5%; 
+    border: 10px solid rgb(151, 0, 0);
+    border-radius: 10px; 
+    font-size: xx-large;
+    text-align: center;
+    padding: 15%; 
+}
+.mybutton{
+    margin: 100px; 
+    background-color: rgb(0, 183, 255);
+    border: 5px solid rgb(0, 102, 185);
+    border-radius: 5px; 
+    font-size: xx-large; 
+    text-align: center;
+    color: black; 
+    text-decoration: none;
+    padding: 10px; 
+}
+#playAgain:hover {
+    padding: 11px; 
+    transition:0.2s; 
+}
+#Homebutton {
+    background-color:rgb(137, 204, 188);
+    border: 2px solid rgb(94, 140, 129); 
+    border-radius: 0px; 
+    width: 200px; 
+    padding: 10px; 
+    color: black; 
+    font-size: xx-large; 
+    text-decoration: none; 
+    text-align: center;
+}
+#Homebutton:hover {
+    background-color:rgb(110, 163, 151);
+    border-radius: 10px;
+    transition: 0.2s; 
+}
+#Homebanner {
+    background-color:rgb(187, 255, 239, 0.288); 
+    width: 100%; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 1px; 
+    margin: 0; 
+    display: flex; 
+}
+/*Styles for the player*/
+#gamepiece {
+    position: relative; 
+    height: 20px; 
+    width: 20px; 
+    background-color: black; 
+    top: 240px; 
+    left: 240px; 
+}
